@@ -1,0 +1,12 @@
+section span {
+    color: red;
+}
+div > p {
+    color: blue;
+}
+div + h2 {
+    color: green;
+}
+div~ h3 {
+    color: yellow
+}

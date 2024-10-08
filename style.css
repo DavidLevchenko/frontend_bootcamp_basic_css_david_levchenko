@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sunset-container {
+    margin-top: 15px;
+    height: 70px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border: black solid 5px;
+}
+.left-child {
+    background-color: black;
+    height: 50px;
+    width: 50%;
+}
+.right-child {
+    background-color: brown;
+    height: 50px;
+    width: 50%;
+}
+.ocean-container{
+    margin-top: 5px;
+    height: 70px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border: black solid 5px;
+}
+.centered-island{
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+.vibrant-container {
+    position: relative;
+    width: 400px; 
+    height: 200px;
+    margin: 5px auto;
+    background-color: aqua;
+    border: black solid 5px;
+    margin-bottom: 15px;
+}
+
+.layer-one, .layer-two {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.layer-one {
+    background-color: rgba(255, 99, 71, 0.8); 
+    z-index: 1; 
+    left: 0; 
+}
+
+.layer-two {
+    background-color: rgba(50, 205, 50, 0.8); /* Зеленый цвет */
+    z-index: 2; 
+    left: 100px; 
+}
+.spotlight-container {
+    position: relative;
+    width: 400px; 
+    height: 250px;
+    margin: 5px auto;
+    background-color: aqua;
+    border: black solid 5px;
+    margin-bottom: 15px;
+}
+.spotlight {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 50px;
+    top: 50px;
+    background-color: rgba(255, 99, 71, 0.8); 
+}
+.scroll-container {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    display: flex;
+    height: 500px;
+    overflow-y: scroll;
+    border: 5px solid black;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    background-color: #ADD8E6; 
+    flex-grow: 1; 
+    padding: 10px;
+    height: 800px; 
+}
+
+.sticky-sidebar {
+    background-color: #FF6347; 
+    width: 200px; 
+    height: 200px;
+    padding: 10px;
+    position: sticky;
+    top: 0; 
+}
+.corner-container {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    position: relative;
+    height: 500px; 
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 5px solid black;
+    overflow-y: scroll;
+}
+
+.fixed-ad {
+    position: absolute; 
+    top: 0;          
+    right: 0;       
+    width: 50px;
+    height: 50px;
+    background-color: #FF6347; 
+    border: 2px solid black;
+}
+.jewel-container {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: 5px solid black;
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    background-color: #e0e0e0; 
+}
+
+.jewel-core {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 100px; 
+    height: 100px; 
+    background-color: #FF6347; 
+    border-radius: 50%; 
+}
+.layered-container {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    position: relative;
+    width: 100px;      
+    height: 100px;    
+    border: 2px solid black; 
+}
+
+.bottom-layer {
+    position: absolute; 
+    top: 0;            
+    left: 0;           
+    width: 50px;      
+    height: 50px;      
+    background-color: aqua;
+    z-index: 1;       
+}
+
+.middle-layer {
+    position: absolute; 
+    top: 20px;         
+    left: 20px;        
+    width: 50px;      
+    height: 50px;      
+    background-color: green;
+    z-index: 2;       
+}
+
+.top-layer {
+    position: absolute; 
+    top: 40px;         
+    left: 40px;        
+    width: 50px;       
+    height: 50px;      
+    background-color: red;
+    z-index: 3;       
+}
+.overflow-container {
+    width: 300px;                
+    height: 200px;             
+    overflow: hidden;           
+    background-color: #f0f0f0;  
+    border: 2px solid black;     
+    position: relative;         
+}
+
+.content-one {
+    width: 350px;               
+    height: 50px;               
+    background-color: #FF6347;  
+    margin-bottom: 10px;        
+}
+
+.content-two {
+    width: 400px;                
+    height: 50px;                
+    background-color: #4682B4;   
+    margin-bottom: 10px;        
+}
+
+.content-three {
+    width: 450px;             
+    height: 50px;              
+    background-color: #32CD32;   
+}
+.box-container {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 100%;                      
+    height: 200px;                   
+    background-color: #f0f0f0;      
+    display: flex;                   
+    justify-content: center;         
+    align-items: center;             
+    border: 2px solid black;         
+}
+
+.fixed-box {
+    width: 100px;                    
+    height: 100px;                   
+    background-color: #FF6347;       
+}
+
+

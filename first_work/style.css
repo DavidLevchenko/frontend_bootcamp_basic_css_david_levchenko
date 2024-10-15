@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #99211D;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background-image: url('images/title.gif'); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 40px; 
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+.image-container {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+   
+}
+
+figure {
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 5px; 
+}
+
+.left-box {
+    background-color: #7D1916; 
+    color: #D34F2E;
+    padding: 15px; 
+    width: 30%; 
+}
+.left-box ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+.left-box li {
+    margin-bottom: 20px; 
+    position: relative; 
+}
+.underline {
+    text-decoration: underline; 
+    color: #D34F2E; 
+}
+
+.middle-box {
+    background-color: #99211D; 
+    color: white; 
+    padding: 15px; 
+    width: 60%; 
+}
+.middle-box p {
+    margin-bottom: 20px; 
+   
+}
+
+.right-box {
+    background-color: #E3DDDD; 
+    color: black; 
+    padding: 5px; 
+    width: 20%; 
+}
+.right-header {
+    background-color: #BDBDBD; 
+    color: black; 
+    text-align: center;
+    margin: 0; 
+    font-size: 20px; 
+    margin-bottom: 10px
+}
+.separator {
+    height: 2px; 
+    background-color: #A1A2A2; 
+    margin: 10px 0; 
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.right-box p {
+    margin-bottom: 10px; 
+   
+}
+footer {
+    background-color: #E95C34; 
+    color: white;
+    font-size: 20px;
+    padding: 5px; 
+    margin-top: 20px; 
+    position: relative; 
+    bottom: 0; 
+    width: calc(100% - 20px); 
+    left: 10px; 
+    height: 30px;
+}
+
+.footer-content {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.copyright-icon {
+    margin-right: 20px; 
+}
